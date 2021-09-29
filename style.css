@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #F5F5EF;
+}
+
+/**-------------NavBar--------------*/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-color: #395303;
+    padding: 0;
+}
+
+.navbar-brand img{
+    height: 60px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #ffff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+/**-------------Banner--------------*/
+
+#banner{
+    background-color: #395303;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.titleBanner{
+    margin-top: 100px;
+    font-family: 'Passion One', cursive;
+    font-size: 40px;
+}
+
+.subtitle{
+    font-family: 'Poppins', sans-serif;
+    color: #83BF4F;
+    margin-top: -15px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.image{
+    width: 400px;
+}
+
+span{
+    margin-top: 60px;
+}
+
+.buttom{
+    background-color: #83BF4F;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+/**-------------Services--------------*/
+#services{
+    background-color:#F5F5EF ;
+}
+
+.title{
+    font-family: 'Passion One', cursive;
+    font-size: 40px;
+}
+
+.icons-img{
+    width:100px;
+    margin-top: 20px;
+}
+
+.services{
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before{
+    content: '';
+    background: #68963B;
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+    border-radius: 30px ;
+}
+
+.title::after{
+    content: '';
+    background: #68963B;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+    border-radius: 30px ;
+}
+
+#services p {
+    margin-top: -15px;
+}
+
+/**-------------about--------------*/
+#about-us{
+    background: #E5E5E5;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#about-us p{
+    margin-top: 50px;
+    text-align: justify;
+}
+
+/**-------------Parcerias--------------*/
+#Parcerias{
+    background-color: #F5F5EF;
+    padding-top: 5%;
+}
+
+/**-------------Contato--------------*/
+#contato{
+    background-color: #68963B;
+    color: #F5F5EF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contato::before{
+    content: '';
+    background: #83BF4F;
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+    border-radius: 30px ;
+}
+
+.contato::after{
+    content: '';
+    background: #83BF4F;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+    border-radius: 30px ;
+}
+
+input{
+    border: solid #ffff;
+    background: transparent;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.input{
+    margin-top: 20px;
+}
+
+textarea{
+    border: solid #ffff;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.pt1{
+    text-align: right;
+}
+
+.icones{
+    width: 100px;
+}
+
+.col-md-10 {
+    margin-left: 8%;
+    margin-bottom: 50px;
+}
+
+#contato a{
+    color: #F5F5EF;
+}
+
+/**-------------Footer--------------*/
+footer{
+    background-color: #E5E5DF;
+    text-align: center;
+    padding: 20px;
+}
