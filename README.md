@@ -1,6 +1,6 @@
 # Site Reciclagem
 
-Oie gente, esse site foi um projeto pessoal para eu entender mais sobre HTML, CSS e BOOTSTRAP
+Site com projeto pessoal para  entender mais sobre HTML, CSS e BOOTSTRAP
 Eu fiz desde a criação do design, da marca, da paleta de cor até a codificação 
 
 ## Proposta
